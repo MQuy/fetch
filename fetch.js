@@ -1,10 +1,6 @@
 (function(self) {
   'use strict';
 
-  if (self.fetch) {
-    return
-  }
-
   var support = {
     searchParams: 'URLSearchParams' in self,
     iterable: 'Symbol' in self && 'iterator' in Symbol,
